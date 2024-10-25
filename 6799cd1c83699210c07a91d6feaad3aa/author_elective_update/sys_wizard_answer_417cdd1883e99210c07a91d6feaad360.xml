@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Approve List</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Approve List</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">17e6835bd12302104f34ba60d8b7c1f4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-25 15:35:26</sys_created_on>
+        <sys_id>417cdd1883e99210c07a91d6feaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve List</sys_name>
+        <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
+        <sys_update_name>sys_wizard_answer_417cdd1883e99210c07a91d6feaad360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 15:35:26</sys_updated_on>
+        <table/>
+        <target_url>x_1548637_demo_approve_list.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</application>
+        <file_path/>
+        <instance_id>5fa3c6aa1bb67154699443f4bd4bcb8f</instance_id>
+        <instance_name>dev231739</instance_name>
+        <name>sys_wizard_answer_417cdd1883e99210c07a91d6feaad360</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Approve List</answer><button_label/><dependent_value/><element/><name>Approve List</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">17e6835bd12302104f34ba60d8b7c1f4</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-25 15:35:26</sys_created_on><sys_id>417cdd1883e99210c07a91d6feaad360</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approve List</sys_name><sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package><sys_policy/><sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope><sys_update_name>sys_wizard_answer_417cdd1883e99210c07a91d6feaad360</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-25 15:35:26</sys_updated_on><table/><target_url>x_1548637_demo_approve_list.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1694672344</payload_hash>
+        <record_name>Approve List</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-25 15:46:47</sys_created_on>
+        <sys_id>170f1d1c83e99210c07a91d6feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192c45bdc430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 15:46:47</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>d30f1d1c94e99210d88375ad682c2814</update_guid>
+        <update_guid_history>d30f1d1c94e99210d88375ad682c2814:-1694672344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-25 15:46:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4dddea8c4f3641e0aff667e9a57e7040</sys_id>
+        <sys_metadata>417cdd1883e99210c07a91d6feaad360</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve List</sys_name>
+        <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
+        <sys_parent display_value="Task">17e6835bd12302104f34ba60d8b7c1f4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
+        <sys_scope_delete display_value="">7f720164604841b6a67c7aea26d41ae4</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_417cdd1883e99210c07a91d6feaad360</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_417cdd1883e99210c07a91d6feaad360">170f1d1c83e99210c07a91d6feaad314</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 15:46:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

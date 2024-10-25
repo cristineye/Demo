@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="approver_name" label="Approver Name" language="en" table="x_1548637_demo_apply_access">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>approver_name</element>
+            <help/>
+            <hint/>
+            <label>Approver Name</label>
+            <language>en</language>
+            <name>x_1548637_demo_apply_access</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-25 14:35:02</sys_created_on>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>Approver Name</sys_name>
+            <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
+            <sys_update_name>sys_documentation_x_1548637_demo_apply_access_approver_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-25 15:26:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
