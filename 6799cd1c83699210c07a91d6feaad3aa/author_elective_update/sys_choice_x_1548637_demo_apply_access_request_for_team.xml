@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="access_category" table="x_1548637_demo_apply_access" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="request_for_team" table="x_1548637_demo_apply_access" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>access_category</element>
+            <element>request_for_team</element>
             <name>x_1548637_demo_apply_access</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-25 14:58:21</sys_created_on>
+            <sys_created_on>2024-10-25 16:36:57</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>access_category</sys_name>
+            <sys_name>request_for_team</sys_name>
             <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
             <sys_policy/>
             <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
-            <sys_update_name>sys_choice_x_1548637_demo_apply_access_access_category</sys_update_name>
+            <sys_update_name>sys_choice_x_1548637_demo_apply_access_request_for_team</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-25 14:58:21</sys_updated_on>
+            <sys_updated_on>2024-10-25 16:36:57</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>access_category</element>
+            <element>request_for_team</element>
             <hint/>
             <inactive>false</inactive>
             <label>MainFrame</label>
@@ -26,36 +26,36 @@
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-25 14:58:21</sys_created_on>
+            <sys_created_on>2024-10-25 16:36:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-25 14:58:21</sys_updated_on>
+            <sys_updated_on>2024-10-25 16:36:57</sys_updated_on>
             <value>mainframe</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>access_category</element>
+            <element>request_for_team</element>
             <hint/>
             <inactive>false</inactive>
-            <label>WebDev</label>
+            <label>WebDevelop</label>
             <language>en</language>
             <name>x_1548637_demo_apply_access</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-25 14:58:21</sys_created_on>
+            <sys_created_on>2024-10-25 16:36:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-25 14:58:21</sys_updated_on>
-            <value>webdev</value>
+            <sys_updated_on>2024-10-25 16:36:57</sys_updated_on>
+            <value>webdevelop</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>access_category</element>
+            <element>request_for_team</element>
             <hint/>
             <inactive>false</inactive>
             <label>PrjManage</label>
@@ -64,12 +64,12 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-25 16:58:51</sys_created_on>
+            <sys_created_on>2024-10-25 16:36:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-25 16:58:51</sys_updated_on>
+            <sys_updated_on>2024-10-25 16:36:57</sys_updated_on>
             <value>prjmanage</value>
         </sys_choice>
     </sys_choice>

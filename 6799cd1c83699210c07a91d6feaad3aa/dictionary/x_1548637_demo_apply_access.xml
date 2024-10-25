@@ -4,30 +4,37 @@
         <element label="Requestor Email" mandatory="true" max_length="40" name="requestor_email" type="string"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Request Date" max_length="40" name="request_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
         <element default="Beth Anglin" label="PMO" max_length="40" name="pmo" read_only="true" reference="sys_user" type="reference"/>
-        <element label="Request For Team" mandatory="true" max_length="40" name="request_for_team" type="string"/>
+        <element choice="3" label="Request For Team" mandatory="true" max_length="40" name="request_for_team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MainFrame" sequence="0" value="mainframe"/>
+                <element inactive_on_update="false" label="WebDevelop" sequence="1" value="webdevelop"/>
+                <element inactive_on_update="false" label="PrjManage" sequence="2" value="prjmanage"/>
+            </choice>
+        </element>
         <element label="Comments" max_length="250" name="comments" type="string"/>
         <element label="Due Date" max_length="255" name="due_date" type="glide_date"/>
-        <element choice="1" label="PMO Email" max_length="40" name="pmo_email" read_only="true" type="string" use_dependent_field="true">
+        <element choice="1" default="yejun@cn.ibm.com" label="PMO Email" max_length="40" name="pmo_email" read_only="true" type="string" use_dependent_field="true">
             <choice/>
         </element>
         <element choice="3" default="not_started" label="Process Status" mandatory="true" max_length="40" name="process_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Waiting For Approve" sequence="5" value="waiting_for_approve"/>
                 <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
                 <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
                 <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
             </choice>
         </element>
         <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Approver Name" max_length="32" name="approver_name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element choice="1" dependent="approver_name.email" dependent_on_field="approver_name.email" label="Approver Email" max_length="40" name="approver_email" read_only="true" type="string" use_dependent_field="true">
+        <element choice="1" default="yejun@cn.ibm.com" dependent="approver_name.email" dependent_on_field="approver_name.email" label="Approver Email" max_length="40" name="approver_email" read_only="true" type="string" use_dependent_field="true">
             <choice/>
         </element>
         <element choice="3" default="prjmanager" label="Access Category" mandatory="true" max_length="40" name="access_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="MainFrame" sequence="0" value="mainframe"/>
+                <element inactive_on_update="false" label="PrjManage" sequence="2" value="prjmanage"/>
                 <element inactive_on_update="false" label="WebDev" sequence="1" value="webdev"/>
-                <element inactive_on_update="false" label="PrjManager" sequence="2" value="prjmanager"/>
             </choice>
         </element>
     </element>
