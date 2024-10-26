@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_date</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>255</max_length>
         <name>x_1548637_demo_apply_access</name>
         <next_element/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
         <sys_update_name>sys_dictionary_x_1548637_demo_apply_access_due_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 15:31:20</sys_updated_on>
+        <sys_updated_on>2024-10-26 05:19:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

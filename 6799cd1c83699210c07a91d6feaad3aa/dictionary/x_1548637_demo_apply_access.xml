@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fe6c05d083a99210c07a91d6feaad385" label="Apply Access" max_length="40" name="x_1548637_demo_apply_access" type="collection">
+    <element audit="true" db_object_id="fe6c05d083a99210c07a91d6feaad385" label="Apply Access" max_length="40" name="x_1548637_demo_apply_access" type="collection">
         <element display="true" label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
         <element label="Requestor Email" mandatory="true" max_length="40" name="requestor_email" type="string"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Request Date" max_length="40" name="request_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
@@ -12,18 +12,17 @@
             </choice>
         </element>
         <element label="Comments" max_length="250" name="comments" type="string"/>
-        <element label="Due Date" max_length="255" name="due_date" type="glide_date"/>
+        <element hint="The Due Date should be after today" label="Due Date" mandatory="true" max_length="255" name="due_date" type="glide_date"/>
         <element choice="1" default="yejun@cn.ibm.com" label="PMO Email" max_length="40" name="pmo_email" read_only="true" type="string" use_dependent_field="true">
             <choice/>
         </element>
-        <element choice="3" default="not_started" label="Process Status" mandatory="true" max_length="40" name="process_status" type="choice">
+        <element choice="3" default="requested" label="Process Status" mandatory="true" max_length="40" name="process_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
-                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
-                <element inactive_on_update="false" label="Waiting For Approve" sequence="5" value="waiting_for_approve"/>
-                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
-                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
-                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Close with Incomplete" sequence="3" value="close_with_incomplete"/>
+                <element inactive_on_update="false" label="Waiting For Approve" sequence="4" value="waiting_for_approve"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
             </choice>
         </element>
         <element default="System Administrator" label="Approver Name" max_length="32" name="approver_name" read_only="true" reference="sys_user" type="reference"/>
