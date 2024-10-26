@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Demo Experience">7f5b30e8836dd210c07a91d6feaad362</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-26 07:49:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b06b30e8836dd210c07a91d6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
+        <sys_update_name>sys_ux_page_property_b06b30e8836dd210c07a91d6feaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 07:49:26</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1548637_demo.7f5b30e8836dd210c07a91d6feaad362.root.global.chrome_header</unique_name>
+        <value>{
+    "privatePage": {
+        "userPrefsEnabled": false,
+        "searchEnabled": false,
+        "currentScreenLinkConfiguration": {},
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [],
+            "secondaryItems": []
+        }
+    },
+    "publicPage": {
+        "menuEnabled": false,
+        "searchEnabled": false,
+        "logoRoute": {},
+        "actionButtons": []
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b06b30e8836dd210c07a91d6feaad3b8"/>
+</record_update>

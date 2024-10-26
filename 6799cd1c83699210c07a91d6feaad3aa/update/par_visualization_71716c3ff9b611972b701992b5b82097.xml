@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent>
+        <name>Access Request by type</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"chartColor"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV4XzE1NDg2MzdfZGVtb19hcHBseV9hY2Nlc3MxNzI5OTI4Njg4MzE3NjY2MDYyMC4yODg5Mzg5MDE=","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1548637_demo_apply_access"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE1NDg2MzdfZGVtb19hcHBseV9hY2Nlc3MxNzI5OTI4Njg4MzE3NjY2MDYyMC4yODg5Mzg5MDE=","groupByField":"access_category","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Access Category","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzE1NDg2MzdfZGVtb19hcHBseV9hY2Nlc3MxNzI5OTI4Njg4MzE3NjY2MDYyMC4yODg5Mzg5MDE=","id":"ZEdGaWJHVjRYekUxTkRnMk16ZGZaR1Z0YjE5aGNIQnNlVjloWTJObGMzTXhOekk1T1RJNE5qZzRNekUzTmpZMk1EWXlNQzR5T0RnNU16ZzVNREU9MTcyOTkyODY4ODMxODE1NTM5MTg2LjQ3ODIzMjY4","numberFormat":{"customFormat":false},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2.0,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":true,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true}</properties>
+        <requested_by/>
+        <scheduled_count/>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-26 07:35:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71716c3ff9b611972b701992b5b82097</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Access Request by type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
+        <sys_update_name>par_visualization_71716c3ff9b611972b701992b5b82097</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 07:44:48</sys_updated_on>
+        <type>Pie</type>
+    </par_visualization>
+</record_update>
