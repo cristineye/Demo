@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use GetEmail Address Script Include to retrieve the Requestor email address</description>
+        <field>requestor_email</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Apply Populate Email Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || newValue == oldValue) {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    //Specify the getEmail method
+    getEmailAddr.addParam('sysparm_name', 'getEmail');
+    //Pass the requestor for sys_id
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('requestor'));
+    //send the requestor to  the server
+    getEmailAddr.getXML(populateEmailField);
+
+    //when the response is back from the server
+    function populateEmailField(response) {
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.clearValue('requestor_email');
+        g_form.setValue('requestor_email', emailFromScriptInclude);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-25 17:21:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9223954836d9210c07a91d6feaad388</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Apply Populate Email Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo" source="x_1548637_demo">6799cd1c83699210c07a91d6feaad3aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">6799cd1c83699210c07a91d6feaad3aa</sys_scope>
+        <sys_update_name>sys_script_client_a9223954836d9210c07a91d6feaad388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-25 17:39:11</sys_updated_on>
+        <table>x_1548637_demo_apply_access</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
